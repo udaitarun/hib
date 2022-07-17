@@ -15,6 +15,8 @@ public interface EmployeeDao {
 	
 	public List<Employee> findAll();
 	
+	public Employee findByName (String Name);
+	
 	
 
 }
