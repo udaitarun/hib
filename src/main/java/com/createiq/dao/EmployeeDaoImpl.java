@@ -72,6 +72,12 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public Employee findByEid(Integer eid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 	
