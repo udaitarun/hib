@@ -15,6 +15,14 @@ public interface EmployeeDao {
 	
 	public List<Employee> findAll();
 	
+	public Employee findByName (String Name);
+	
+	
+	public Employee findByEid (Integer eid);
+	
+	
+	
+	
 	
 
 }
